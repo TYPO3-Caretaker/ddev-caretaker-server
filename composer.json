@@ -36,7 +36,7 @@
     "typo3/cms-tstemplate": "^7.6",
     "typo3/cms-viewpage": "^7.6",
     "typo3/cms-documentation": "^7.6",
-    "helhum/typo3-console": "4",
+    "helhum/typo3-console": "^4",
     "caretaker/caretaker": "^0.8.1"
   },
   "extra": {

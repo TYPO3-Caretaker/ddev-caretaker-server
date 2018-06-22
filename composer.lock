@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eebb883dbc847841a5c6bfc8e0c53ea6",
+    "content-hash": "c17e55a3084006e02811a584871ea5fe",
     "packages": [
         {
             "name": "caretaker/caretaker",
@@ -213,32 +213,31 @@
         },
         {
             "name": "helhum/typo3-console",
-            "version": "4.0.0",
+            "version": "4.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-Console/TYPO3-Console.git",
-                "reference": "a61d0d4df92cbe680074a1f51a0aef037bf9ab5d"
+                "reference": "f190a3acd39bea6449741e13fdc3f03d360a17b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3-Console/TYPO3-Console/zipball/a61d0d4df92cbe680074a1f51a0aef037bf9ab5d",
-                "reference": "a61d0d4df92cbe680074a1f51a0aef037bf9ab5d",
+                "url": "https://api.github.com/repos/TYPO3-Console/TYPO3-Console/zipball/f190a3acd39bea6449741e13fdc3f03d360a17b3",
+                "reference": "f190a3acd39bea6449741e13fdc3f03d360a17b3",
                 "shasum": ""
             },
             "require": {
                 "ext-phar": "*",
-                "helhum/typo3-console-plugin": "^1.5.0",
-                "php": ">=5.5.0",
+                "helhum/typo3-console-plugin": "^1.7.5 || ^2.0.2",
+                "php": ">=5.5.0 <7.3",
                 "symfony/console": "^2.7 || ^3.0",
                 "symfony/process": "^2.7 || ^3.0",
-                "typo3/cms-backend": "^7.6 || >=8.0.0 <8.5",
-                "typo3/cms-core": "^7.6 || >=8.0.0 <8.5",
-                "typo3/cms-extbase": "^7.6 || >=8.0.0 <8.5",
-                "typo3/cms-extensionmanager": "^7.6 || >=8.0.0 <8.5",
-                "typo3/cms-fluid": "^7.6 || >=8.0.0 <8.5",
-                "typo3/cms-install": "^7.6 || >=8.0.0 <8.5",
-                "typo3/cms-saltedpasswords": "^7.6 || >=8.0.0 <8.5",
-                "typo3/cms-scheduler": "^7.6 || >=8.0.0 <8.5"
+                "typo3/cms-backend": "^7.6 || ^8.7",
+                "typo3/cms-core": "^7.6 || ^8.7",
+                "typo3/cms-extbase": "^7.6 || ^8.7",
+                "typo3/cms-extensionmanager": "^7.6 || ^8.7",
+                "typo3/cms-fluid": "^7.6 || ^8.7",
+                "typo3/cms-install": "^7.6 || ^8.7",
+                "typo3/cms-scheduler": "^7.6 || ^8.7"
             },
             "replace": {
                 "typo3-ter/typo3-console": "self.version",
@@ -246,8 +245,10 @@
             },
             "require-dev": {
                 "mikey179/vfsstream": "~1.6.0",
-                "namelesscoder/typo3-repository-client": "^1.2.0",
-                "phpunit/phpunit": "~4.8.0"
+                "nimut/testing-framework": "^2.0 || ^3.0",
+                "symfony/filesystem": "^3.2",
+                "typo3-console/create-reference-command": "^1.0",
+                "typo3/cms": "^8.7"
             },
             "bin": [
                 "Scripts/typo3cms"
@@ -275,7 +276,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -294,7 +295,7 @@
                 "console",
                 "typo3"
             ],
-            "time": "2016-11-01T14:48:47+00:00"
+            "time": "2018-06-05T11:37:47+00:00"
         },
         {
             "name": "helhum/typo3-console-plugin",

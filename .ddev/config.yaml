@@ -9,6 +9,9 @@ xdebug_enabled: false
 additional_hostnames: []
 provider: default
 
+hooks:
+  post-start:
+    - exec: "composer install -d /var/www/html"
 
 # This config.yaml was created with ddev version v0.19.0 
 # webimage: drud/nginx-php-fpm-local:v0.19.0

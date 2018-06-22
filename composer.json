@@ -47,5 +47,11 @@
     "helhum/typo3-console": {
       "install-extension-dummy": "0"
     }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "./vendor/bin/typo3cms install:generatepackagestates",
+      "./vendor/bin/typo3cms extension:setupactive"
+    ]
   }
 }

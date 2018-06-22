@@ -1,0 +1,95 @@
+<?php
+return [
+    'BE' => [
+        'debug' => false,
+        'explicitADmode' => 'explicitAllow',
+        'installToolPassword' => '$P$Ct5JOBORZkg3ElyAXZ1XfJ2HlzzzDa.',
+        'loginSecurityLevel' => 'normal',
+    ],
+    'DB' => [
+        'database' => 'db',
+        'host' => 'db',
+        'password' => 'db',
+        'port' => 3306,
+        'username' => 'db',
+    ],
+    'EXT' => [
+        'extConf' => [
+            'caretaker' => 'a:5:{s:10:"storagePid";s:1:"0";s:14:"notifications.";a:4:{s:9:"advanced.";a:1:{s:7:"enabled";s:1:"1";}s:12:"simple_mail.";a:5:{s:7:"enabled";s:1:"0";s:9:"mail_from";s:28:"servermonitoring@example.org";s:12:"mail_subject";s:9:"caretaker";s:9:"mail_link";s:80:"http://caretaker.example.org/index.php?id=123&tx_caretaker_pi_singleview[id]=###";s:8:"role_ids";s:0:"";}s:4:"cli.";a:1:{s:7:"enabled";s:1:"1";}s:11:"send_states";s:11:"-2,-1,0,1,2";}s:4:"eid.";a:1:{s:7:"enabled";s:1:"0";}s:5:"ping.";a:1:{s:11:"cli_command";s:23:"/bin/ping -c 1 ### 2>&1";}s:9:"features.";a:1:{s:26:"newConfigurationOverrides.";a:1:{s:7:"enabled";s:1:"0";}}}',
+            'caretaker_instance' => 'a:2:{s:7:"crypto.";a:2:{s:9:"instance.";a:2:{s:9:"publicKey";s:451:"-----BEGIN PUBLIC KEY-----|MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArb4MFdbQADlDBBHAOu42|vRmzP99m+cWHNWbVh7oQDRMPGKaKafGTgHEmJ3/63FaUETW6mJKIwTFX2b/6+44A|fFrpXSdBM8D1rjldvXfYj45t95yKzHS0gBEvlfNiKaTcJDTy5zf/TaPCdwq8c+YP|BdfOIyySmgGq6Uof6AiFHCTUadZeGAXKuQCPspUYXQPsgFNltMaVyuDlZWQmL8rM|ie0ay4qCt/SDsFcL52SfuE5go2h5YGTeN60IMgON3cTJOaqKz6dJ82DsvVGWlWWS|57B4XW1QyRiIn4C9cT+z10AiLO5bkMVqk42T4BY+ikGjIjxf26sbnA4GBFDXPNZ2|rQIDAQAB|-----END PUBLIC KEY-----|";s:10:"privateKey";s:1704:"-----BEGIN PRIVATE KEY-----|MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtvgwV1tAAOUME|EcA67ja9GbM/32b5xYc1ZtWHuhANEw8Ypopp8ZOAcSYnf/rcVpQRNbqYkojBMVfZ|v/r7jgB8WuldJ0EzwPWuOV29d9iPjm33nIrMdLSAES+V82IppNwkNPLnN/9No8J3|Crxz5g8F184jLJKaAarpSh/oCIUcJNRp1l4YBcq5AI+ylRhdA+yAU2W0xpXK4OVl|ZCYvysyJ7RrLioK39IOwVwvnZJ+4TmCjaHlgZN43rQgyA43dxMk5qorPp0nzYOy9|UZaVZZLnsHhdbVDJGIifgL1xP7PXQCIs7luQxWqTjZPgFj6KQaMiPF/bqxucDgYE|UNc81natAgMBAAECggEAHGB9+NMtBdxUZcXAb9+YcSpRbI1AdGseukohdhmdpYUH|Yi9RTBx4yvGwGaN9hZ9eb7Em2OSWEXfNsXL5uzxmN+lhVCWlMJ7DgcE83kVEya2p|qFeZE+u7z27/Jq6pycNzcTZ0te8fc77bdDX8sbFRotKsiHIvP5gmIhRJQcyicQYN|8STr11TfCSf+sI/6xz8zbD+S4AOb3gL+QTU255FFt0pci/L5D7a+Q28eNa2aPdW/|qY+ahau+88tzQ6gpsW3iM5rKOekvVclmyPdc3tblG7P/niEHZcteVqysgTpnDMiw|byuoprYXFaojZs4yIePhI/zjTpGHGkDNYTC9XE26wQKBgQDdsVKwripIvlnAKXMV|IaYlwS9J4AmhjPHTq0o3GD5na8J7M/90vitmDzPmeXl6Jh2V2nh626fhnl2NY7Ai|lSXfK+FIhbRT+9aldgdQGQb73FkOJcqq8Z/Jr7k2WAzTMajh6Tz1f6tnsES4IvmY|O7WlMZ+IaHpFRs4MyxnIowZ4YwKBgQDIoRqEjvVgWiYMjoWdp2ut+4efF+5qcgDC|zGLUAAKzvbvxVJbMGAU96YXVVq0oW9pe5B+6qVLhDuvRsPhowiAqsBszQK8CPJfA|6G9A+vCsB0wMCCuCF09R1Fjc3VamT3+XtKvauLyx3YP0NNi0dpUac4ee7MLgxAhO|IGMZAN2ZrwKBgQCwKi6Zc2zqbUiIqOdoTVrn+YGIZN2CYKvyFdVdvogoSrs6h/Fh|ZZS6/y2w4aqkZBFyeS7wAgiAAwY4SpU2heqYUxgsNwM7EY5Z4VaiUaD5Fvo1gdZw|zJy6+kZlZsaaNIYNLvhf5VnhhXK2GCTa0efgI3SwQsWWs1MdW29bviBwHQKBgHUv|HDUG5y2TGhxFdqfB7TQe8XUsXjZQRj+Bb8wSAYIItWjdFoM5GH60ElasnNEw7Vh1|eE7nraAEvhqpej59/JnSaODDzDTLPXwQh0L2D3L7hCCW+QqwIMVT+V9v7LeRQZ5T|iflj49sj3nnaECVAChD8H9/kvGLaPVucsSUei1DDAoGBANBJkj7qtau7bO6zVVkw|2ytrzdxHSXnRhFu2zH2yqGAw6RHbEYF4Nt6FDwztI2ZFu7U9HpzxoDIieZ6seFMM|jYHCXoNW/DYOZV68sg2TZ9RTMhPmSKYdmaOObSBZlSGZnaFTnSUQeWmk5GIsa2La|hqs82FvMJWY7PANjCOxWp9Te|-----END PRIVATE KEY-----|";}s:7:"client.";a:1:{s:9:"publicKey";s:451:"-----BEGIN PUBLIC KEY-----|MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArb4MFdbQADlDBBHAOu42|vRmzP99m+cWHNWbVh7oQDRMPGKaKafGTgHEmJ3/63FaUETW6mJKIwTFX2b/6+44A|fFrpXSdBM8D1rjldvXfYj45t95yKzHS0gBEvlfNiKaTcJDTy5zf/TaPCdwq8c+YP|BdfOIyySmgGq6Uof6AiFHCTUadZeGAXKuQCPspUYXQPsgFNltMaVyuDlZWQmL8rM|ie0ay4qCt/SDsFcL52SfuE5go2h5YGTeN60IMgON3cTJOaqKz6dJ82DsvVGWlWWS|57B4XW1QyRiIn4C9cT+z10AiLO5bkMVqk42T4BY+ikGjIjxf26sbnA4GBFDXPNZ2|rQIDAQAB|-----END PUBLIC KEY-----|";}}s:9:"security.";a:1:{s:28:"clientHostAddressRestriction";s:0:"";}}',
+            'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
+            'saltedpasswords' => 'a:2:{s:3:"BE.";a:4:{s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}s:3:"FE.";a:5:{s:7:"enabled";i:1;s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}}',
+        ],
+    ],
+    'FE' => [
+        'cHashIncludePageId' => true,
+        'debug' => false,
+        'loginSecurityLevel' => 'rsa',
+    ],
+    'GFX' => [
+        'colorspace' => 'sRGB',
+        'im' => 1,
+        'im_mask_temp_ext_gif' => 1,
+        'im_path' => '/usr/bin/',
+        'im_path_lzw' => '/usr/bin/',
+        'im_v5effects' => 1,
+        'im_version_5' => 'im6',
+        'image_processing' => 1,
+        'jpg_quality' => '80',
+    ],
+    'INSTALL' => [
+        'wizardDone' => [
+            'TYPO3\CMS\Install\Updates\AccessRightParametersUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\BackendUserStartModuleUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\Compatibility6ExtractionUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\ContentTypesToTextMediaUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\ExtensionManagerTables' => 1,
+            'TYPO3\CMS\Install\Updates\FileListInAccessModuleListUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\FileListIsStartModuleUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\FilesReplacePermissionUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\LanguageIsoCodeUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\MediaceExtractionUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\MigrateMediaToAssetsForTextMediaCe' => 1,
+            'TYPO3\CMS\Install\Updates\MigrateShortcutUrlsAgainUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\OpenidExtractionUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\PageShortcutParentUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\ProcessedFileChecksumUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\TableFlexFormToTtContentFieldsUpdate' => 1,
+            'TYPO3\CMS\Install\Updates\WorkspacesNotificationSettingsUpdate' => 1,
+            'TYPO3\CMS\Rtehtmlarea\Hook\Install\DeprecatedRteProperties' => 1,
+            'TYPO3\CMS\Rtehtmlarea\Hook\Install\RteAcronymButtonRenamedToAbbreviation' => 1,
+        ],
+    ],
+    'MAIL' => [
+        'transport_sendmail_command' => '/usr/local/bin/mailhog sendmail test@example.org --smtp-addr 127.0.0.1:1025',
+    ],
+    'SYS' => [
+        'caching' => [
+            'cacheConfigurations' => [
+                'extbase_object' => [
+                    'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
+                    'frontend' => 'TYPO3\\CMS\\Core\\Cache\\Frontend\\VariableFrontend',
+                    'groups' => [
+                        'system',
+                    ],
+                    'options' => [
+                        'defaultLifetime' => 0,
+                    ],
+                ],
+            ],
+        ],
+        'clearCacheSystem' => false,
+        'devIPmask' => '',
+        'displayErrors' => 0,
+        'enableDeprecationLog' => false,
+        'encryptionKey' => '836bdd9c8760e137178d28222427d4bd086be10741c528533fce57f7709e0806dd11f2111952f15244b968f6511bf50d',
+        'exceptionalErrors' => 20480,
+        'isInitialDatabaseImportDone' => true,
+        'isInitialInstallationInProgress' => false,
+        'sitename' => 'caretaker server',
+        'sqlDebug' => 0,
+        'systemLogLevel' => 2,
+        't3lib_cs_convMethod' => 'mbstring',
+        't3lib_cs_utils' => 'mbstring',
+    ],
+];

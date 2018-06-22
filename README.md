@@ -1,6 +1,9 @@
 # ddev Setup for Caretaker Server
 
-## install
+## installation
+
+* Install docker and ddev (https://ddev.readthedocs.io/en/latest/)
+* clone repo and start ddev projekt:
 
 ```
 git clone git@github.com:TYPO3-Caretaker/ddev-caretaker-server.git

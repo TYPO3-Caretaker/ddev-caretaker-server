@@ -1,5 +1,6 @@
 .DS_Store
 .idea
+/.ddev/sequelpro.spf
 /.env
 /.htaccess
 /vendor

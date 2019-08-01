@@ -1,0 +1,3 @@
+[submodule "web/typo3conf/ext/caretaker_instance"]
+	path = web/typo3conf/ext/caretaker_instance
+	url = https://github.com/TYPO3-Caretaker/caretaker_instance.git

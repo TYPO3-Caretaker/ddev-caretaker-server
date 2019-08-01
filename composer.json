@@ -1,32 +1,23 @@
 {
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://composer.typo3.org/"
-    }
-  ],
-  "name": "caretaker/caretaker-server-distribution",
-  "description": "Caretaker Server Distribution",
-  "license": "GPL-2.0+",
-  "require": {
-    "typo3/cms": "^7.6",
-    "helhum/typo3-console": "^4",
-    "caretaker/caretaker": "^0.8.1"
-  },
-  "extra": {
-    "typo3/cms": {
-      "cms-package-dir": "{$vendor-dir}/typo3/cms",
-      "web-dir": "web"
-    },
-    "helhum/typo3-console": {
-      "install-extension-dummy": "0"
-    }
-  },
-  "scripts": {
-    "post-install-cmd": [
-      "./vendor/bin/typo3cms install:generatepackagestates",
-      "./vendor/bin/typo3cms install:fixfolderstructure",
-      "./vendor/bin/typo3cms install:extensionsetupifpossible"
-    ]
-  }
+	"repositories": [
+		{ "type": "composer", "url": "https://composer.typo3.org/" }
+	],
+	"name": "typo3/cms-base-distribution",
+	"description" : "TYPO3 CMS Base Distribution",
+	"license": "GPL-2.0+",
+	"require": {
+		"typo3/cms": "^7.6"
+	},
+	"extra": {
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"web-dir": "web"
+		}
+	},
+	"autoload": {
+		"classmap": [
+			"web/typo3conf/ext/caretaker_instance/classes/",
+			"web/typo3conf/ext/caretaker_instance/services/"
+		]
+	}
 }

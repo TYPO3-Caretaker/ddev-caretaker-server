@@ -1,16 +1,18 @@
-# DDEV Setup for Caretaker
+# DDEV Setup for TYPO3 extension caretaker
+
+## Requirements
+
+* Docker + DDEV (https://ddev.readthedocs.io/en/latest/)
 
 ## Installation
-
-* Install docker and ddev (https://ddev.readthedocs.io/en/latest/)
-* clone repo and start ddev projekt:
 
 ```
 git clone https://github.com/TYPO3-Caretaker/ddev-caretaker-server.git && \
 cd ddev-caretaker-server && \
-git checkout TYPO3_7 && \
+git checkout TYPO3_8 && \
 ddev start && \
-open https://ddev-caretaker-server.ddev.site/typo3/install/
+open https://ddev-caretaker-server.ddev.site/typo3/
 ```
 
-Login with "password" and create your backend user.
+BE-User: admin
+Password: password

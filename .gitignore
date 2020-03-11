@@ -6,3 +6,4 @@ nbproject
 /public/typo3conf/*
 !/public/typo3conf/AdditionalConfiguration.php
 !/public/typo3conf/ext/caretaker_instance
+!/public/typo3conf/ext/caretaker

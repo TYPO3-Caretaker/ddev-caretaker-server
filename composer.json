@@ -28,11 +28,7 @@
 	"autoload": {
 		"classmap": [
 			"public/typo3conf/ext/caretaker_instance/classes/",
-			"public/typo3conf/ext/caretaker_instance/services/",
-			"public/typo3conf/ext/caretaker/classes/",
-			"public/typo3conf/ext/caretaker/Classes/",
-			"public/typo3conf/ext/caretaker/scheduler/",
-			"public/typo3conf/ext/caretaker/interfaces/"
+			"public/typo3conf/ext/caretaker_instance/services/"
 		]
 	}
 }

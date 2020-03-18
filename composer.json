@@ -27,7 +27,9 @@
 		"typo3/cms-viewpage": "^8.7.10",
 		"typo3/cms-wizard-crpages": "^8.7.10",
 		"typo3/cms-wizard-sortpages": "^8.7.10",
-		"typo3-console/composer-typo3-auto-install": "^0.2.1"
+		"typo3-console/composer-typo3-auto-install": "^0.2.1",
+		"typo3/cms-lowlevel": "^8.7",
+		"typo3/cms-reports": "^8"
 	},
 	"scripts":{
 		"typo3-cms-scripts": [
@@ -52,7 +54,9 @@
 			"public/typo3conf/ext/caretaker_instance/classes/",
 			"public/typo3conf/ext/caretaker_instance/services/",
 			"public/typo3conf/ext/caretaker/classes/",
-			"public/typo3conf/ext/caretaker/Classes/"
+			"public/typo3conf/ext/caretaker/Classes/",
+			"public/typo3conf/ext/caretaker/scheduler/",
+			"public/typo3conf/ext/caretaker/interfaces/"
 		]
 	}
 }
